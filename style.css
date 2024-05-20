@@ -1,0 +1,240 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.karla {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.jose {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.marce {
+    font-family: "Marcellus", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.jost{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+  
+.btn-1 {
+    padding: 10px 20px;
+    background-color: #D0AE4A;
+    border-radius: 25px;
+    border: 1px solid #D0AE4A;
+}
+
+.btn-1:hover {
+    background-color: white;
+    border: 1px solid #D0AE4A;
+}
+
+.btn-1:hover a {
+    color: #D0AE4A;
+}
+
+.btn-1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.btn-2:hover {
+    background-color: #f5f4f1;
+    transition: 1s ease;
+}
+
+.btn-2:hover a {
+    color: #D0AE4A;
+}
+
+.btn-2 {
+    padding: 10px 20px;
+    background-color: #D0AE4A;
+    border: 1px solid #D0AE4A;
+}
+
+.btn-2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+/* index.html */
+#index-bck {
+    background: url('img/371025177.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+#back-img {
+    background: url('img/371024917.jpg') rgba(0, 0, 0, 0.70);
+    background-attachment: fixed;
+    height: 60vh;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+/* rooms */
+.iicons img {
+    width: 40px;
+    height: 40px;
+}
+
+.iicons p {
+    margin: 10px 10px;
+    font-size: 18px;
+}
+
+/* about.html */
+#about-about {
+    background: url('img/371024918.jpg') rgba(0, 0, 0, 0.40);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* rooms.html */
+#rooms-about {
+    background: url('img/371024854.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+/* gallery.html */
+#gallery-about {
+    background: url('img/371025177.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+/* contact.html */
+#contact-about {
+    background: url('img/371024917.jpg') rgba(0, 0, 0, 0.40);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: multiply;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* footer */
+.con-inf i {
+    color: #D0AE4A;
+    font-size: 25px;
+}
+
+.con-inf p {
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+}
+
+.con-inf a {
+    text-decoration: none;
+    color: white;
+}
+
+.men-foo ul li {
+    list-style: none;
+    margin-top: 12px;
+}
+
+.men-foo a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.men-foo a:hover {
+    color: #D0AE4A;
+    transition: 1s ease;
+}
+
+
+
+/* annimation */
+
+.fadeinleft {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 1s ease-out;
+  }
+  
+  .fadeinright {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 1s ease-out;
+  }
+  
+  .fadeindown {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 1.2s ease-out;
+  }
+  
+  .fadeinup {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 1.2s ease-out;
+  }
+  
+  .fade-in {
+    opacity: 0;
+    transition: all 1.3s ease-in;
+  }
+  
+  .active-left,
+  .active,
+  .active-right,
+  .active-down,
+  .active-up {
+    opacity: 1;
+    transform: translateX(0);
+    transform: translateY(0);
+  }
+  
+  .fadein {
+    opacity: 0;
+  }
